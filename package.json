@@ -11,7 +11,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "heroku-postbuild": "next build"
+    "postinstall": "heroku-nextjs-build"
   },
   "dependencies": {
     "@mars/heroku-nextjs-build": "^2.0.0",
