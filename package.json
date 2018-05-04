@@ -1,6 +1,12 @@
 {
   "name": "ssrNextJS",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "cacheDirectories": [
+    "nextjs/node_modules"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -8,6 +14,7 @@
     "heroku-postbuild": "next build"
   },
   "dependencies": {
+    "@mars/heroku-nextjs-build": "^2.0.0",
     "axios": "^0.18.0",
     "isomorphic-unfetch": "^2.0.0",
     "next": "^6.0.0",
