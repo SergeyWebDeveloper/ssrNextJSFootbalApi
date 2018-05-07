@@ -1,6 +1,5 @@
 import axios from 'axios';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
 
 import {Layout} from '../components/Layout'
 import {Player} from '../components/Player';
@@ -8,7 +7,6 @@ import {Player} from '../components/Player';
 
 const Players = (props) => (
 	<Layout>
-		<Link href='/'><a className="waves-effect waves-light btn">Назад</a></Link>
 		{props.playersTeam.players.length>0 && <h1>Игроки</h1>}
 		{props.playersTeam.players.length > 0 ?
 			<ul className="collection">

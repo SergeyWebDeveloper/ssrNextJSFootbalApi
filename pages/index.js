@@ -4,8 +4,6 @@ import axios from 'axios';
 import {Layout} from '../components/Layout';
 import {ItemAllTeam} from '../components/ItemAllTeam';
 
-axios.defaults.headers.common['X-Auth-Token'] = '1396067cb9b04bb8ae72da3196bae9af';
-
 class Index extends Component {
 
 	static async getInitialProps() {
