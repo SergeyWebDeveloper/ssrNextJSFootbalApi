@@ -1,15 +1,10 @@
 {
   "name": "ssrNextJS",
   "version": "1.0.0",
-  "engines": {
-    "node": "8.11.1",
-    "yarn": "1.6.0"
-  },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p 3000",
-    "heroku-postbuild": "next build"
+    "start": "next start -p 3000"
   },
   "dependencies": {
     "@mars/heroku-nextjs-build": "^2.0.0",
